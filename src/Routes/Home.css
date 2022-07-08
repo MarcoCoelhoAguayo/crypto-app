@@ -1,0 +1,38 @@
+
+
+.home-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+header {
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+header h3 {
+    color: white;
+}
+
+.searchbar {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.searchbar input {
+    width: 62%;
+    padding: 20px;
+}
+
+main {
+    width: 100%;
+    background-color: black;
+}

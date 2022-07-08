@@ -1,0 +1,59 @@
+
+
+.coin-page {
+    min-height: 92.5vh;
+    background-image: url(../Images/bitcoin.jpg);
+    background-size: cover;
+    background-position: center;
+    filter: brightness(80%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.coin-content {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 40px 60px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.coin-image {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+
+
+.coin-title {
+    color: white;
+    font-size: 2em;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.coin-stats {
+    width: 100%;
+}
+
+.stat {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 12px 0;
+}
+
+.stat-title {
+    color: white;
+}
+
+.stat-text {
+    color: white;
+    padding-left: 20px;
+
+}
