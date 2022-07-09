@@ -9,6 +9,7 @@ import CoinPage from './Routes/CoinPage';
 function App() {
   return (
     <Router>
+      <h1>Testing</h1>
         <Header />
       <Routes>
         <Route path='/' element={<Home />}/>
